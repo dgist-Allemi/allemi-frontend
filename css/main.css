@@ -1,0 +1,93 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #F9F9F9;
+}
+
+.meal-plan-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 1000px;
+    text-align: center;
+    position: relative;
+}
+.allergy{
+    color: red;
+}
+h1 {
+    font-size: 24px;
+    color: #333333;
+}
+
+h1 span {
+    font-size: 30px;
+}
+
+.meal-plan-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.meal-plan-table th,
+.meal-plan-table td {
+    border: 1px solid #dddddd;
+    padding: 20px;
+    vertical-align: top;
+    text-align: left;
+    font-size: 14px;
+    color: #333333;
+}
+
+.meal-plan-table th {
+    background-color: #4caf50;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+}
+
+.meal-plan-table .date {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.meal-plan-table .meal {
+    margin-top: 10px;
+    font-size: 12px;
+    color: #555555;
+    line-height: 1.5;
+}
+
+.meal-plan-table td {
+    height: 100px; /* 칸의 높이를 조정 */
+}
+
+.meal-plan-table td:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+.meal-plan-table td:nth-child(even) {
+    background-color: #ffffff;
+}
+.school-menu{
+    margin-top: 50px;
+    cursor: pointer;
+    font-size: 35px;
+    color: #4caf50;
+}
+a{
+    text-decoration: none;
+    color: black ;
+    font-weight: bold;
+}
+
+td{
+    width: 20%;
+    table-layout: fixed;
+}
+.logo{
+    width: 400px;
+}
